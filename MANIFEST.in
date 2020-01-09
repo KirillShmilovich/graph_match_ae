@@ -1,0 +1,6 @@
+include LICENSE
+include MANIFEST.in
+include versioneer.py
+
+graft graph_match_ae
+global-exclude *.py[cod] __pycache__ *.so
